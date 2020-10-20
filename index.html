@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Site Kharid</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Scheherazade:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <div class="top-moving">
+    <div class="user-icon" onclick="openUserNav()">
+    </div>
+      <img class="shopping-cart-logo"src="styles/iconmonstr-shopping-cart-3.svg" alt="">
+    <h1 class='logo'>اسم شرکت</h1>
+    <div class="menu-icon" onclick="openMenu()">
+      <div class="burger b-1">
+      </div><div class="burger b-2">
+      </div><div class="burger b-3">
+      </div>
+    </div>
+    <br>
+    <div class="search-div">
+      <input type="text" placeholder="جستجو">
+      <img src="styles/search-solid.svg" alt="" class='search-icon'>
+    </div>
+  </div>
+  <div class="fixed-top">
+  </div>
+  <div class="user-section">
+    <div class="closebtn user-icon" onclick='closeUserNav()'>
+      <div class='x-menu' style="transform: rotate(45deg);"></div>
+      <div class='x-menu' style="transform: rotate(-45deg);"></div>
+    </div>
+      <div class="shopping-cart-div">
+        <div class="shopping-cart">
+          <h1>سبد خرید</h1>
+          <div class="cart-item-div">
+            <div class="cart-item cart-item-1">
+
+            </div>
+            <div class="cart-item cart-item-2">
+
+            </div>
+            <div class="cart-item cart-item-3">
+
+            </div>
+            <div class="cart-item cart-item-4">
+
+            </div>
+          </div>
+          <div class="total-price">
+            <h1>جمع کل: ۱۰۰۰۰۰۰</h1>
+          </div>
+        </div>
+      <button type="button" class='button-pardakht' name="pardakht">پرداخت</button>
+      </div>
+      <div class="nav-user">
+        <a href="#">حساب کاربری</a><br>
+        <a href="#">آدرس‌ها</a><br>
+        <a href="#">سفارش‌ها</a><br>
+        <a href="#">کالاهای پیشنهادی من</a><br>
+        <a href="#">سبد آرزو؟</a>
+      </div>
+  </div>
+  <div class="menu">
+    <div class="closebtn menu-icon" onclick='closeMenu()'>
+      <div class='x-menu' style="transform: rotate(45deg);"></div>
+      <div class='x-menu' style="transform: rotate(-45deg);"></div>
+    </div>
+    <a href="#" class='first-in-list'>کالا‌های موجود</a><br>
+    <a href="#">سفارش از آمازون</a><br>
+    <a href="#">سفارش عمده</a><br>
+    <a href="#">در‌باره‌ی ما</a><br>
+    <a href="#">سوال‌های متداول</a><br>
+    <a href="#">تماس با ما</a><br>
+  </div>
+  <div class="first-pictures">
+    <div class=" fisrt-right-pic"><img class="fisrt-right-pic" src="styles/wallpapertip_asus-4k-wallpaper_1666353.jpg" alt="">
+    </div>
+    <div class="first-left-div">
+      <div class="first-left first-top-right-pic"><img class="first-left first-top-right-pic" src="styles/wp6967907-ps5-4k-pictures-wallpapers.png" alt="">
+      </div><div class="first-left first-top-left-pic"><img class="first-left first-top-left-pic" src="styles/amazon-storefront-e1552931998325.jpg" alt="">
+      </div><div class="first-left first-bottom-right-pic"><img class="first-left first-bottom-right-pic" src="styles/xbox series x.png" alt="">
+      </div><div class="first-left first-bottom-left-pic"><img class="first-left first-bottom-left-pic" src="styles/ray ban.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="category-section">
+    <div class="categories">
+      <h1 class='available'>کالاهای موجود</h1>
+      <div class="category c-1">
+        <h2 class='c-h2' id="c-1">اسم دسته‌بندی</h2>
+      </div>
+      <div class="category c-2">
+        <h2 class='c-h2' id="c-2">اسم دسته‌بندی</h2>
+      </div>
+      <div class="category c-3">
+        <h2 class='c-h2' id="c-3">اسم دسته‌بندی</h2>
+      </div>
+      <div class="category c-4">
+        <h2 class='c-h2' id="c-4">اسم دسته‌بندی</h2>
+      </div>
+      <div class="category c-5">
+        <h2 class='c-h2' id="c-5">اسم دسته‌بندی</h2>
+      </div>
+      <div class="category c-6">
+        <h2 class='c-h2' id="c-6">اسم دسته‌بندی</h2>
+      </div>
+      <div class="category c-7">
+        <h2 class='c-h2' id="c-7">اسم دسته‌بندی</h2>
+      </div>
+      <div class="category c-8">
+        <h2 class='c-h2' id="c-8">اسم دسته‌بندی</h2>
+      </div>
+      <div class="category c-9">
+        <h2 class='c-h2' id="c-9">اسم دسته‌بندی</h2>
+      </div>
+    </div>
+    <div class="product-section">
+      <div class="product-inner">
+        <div class="products pro-1">
+          <div class="product-position">
+            <div class="product-img">
+            </div>
+            <h1 class="product-name">اسم کالا ۱</h1>
+            <h1 class='product-price'>۲۰۰,۰۰۰</h1>
+          </div>
+        </div>
+        <div class="products pro-2">
+          <div class="product-position">
+            <div class="product-img">
+            </div>
+            <h1 class="product-name">اسم کالا ۱</h1>
+            <h1 class='product-price'>۲۰۰,۰۰۰</h1>
+          </div>
+        </div>
+        <div class="products pro-3">
+          <div class="product-position">
+            <div class="product-img">
+            </div>
+            <h1 class="product-name">اسم کالا ۱</h1>
+            <h1 class='product-price'>۲۰۰,۰۰۰</h1>
+          </div>
+        </div>
+        <div class="products pro-4">
+          <div class="product-position">
+            <div class="product-img">
+            </div>
+            <h1 class="product-name">اسم کالا ۱</h1>
+            <h1 class='product-price'>۲۰۰,۰۰۰</h1>
+          </div>
+        </div>
+        <div class="products pro-5">
+          <div class="product-position">
+            <div class="product-img">
+            </div>
+            <h1 class="product-name">اسم کالا ۱</h1>
+            <h1 class='product-price'>۲۰۰,۰۰۰</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="second-pictures">
+    <div class="sec-pics sec-pic-1"><img class="sec-pics sec-pic-1" src="styles/lg monitor.jpg" alt="">
+    </div><div class="sec-pics sec-pic-2"><img class="sec-pics sec-pic-2" src="styles/nvidia.jpg" alt="">
+    </div><div class="sec-pics sec-pic-3"><img class="sec-pics sec-pic-3" src="styles/amd redeon.jpg" alt="">
+    </div><div class="sec-pics sec-pic-4"><img class="sec-pics sec-pic-4" src="styles/asus tuf.jpg" alt="">
+    </div>
+  </div>
+  <div class="discount-section">
+    <div class="text-discount-div">
+      <h1 class="text-discount">تخفیف‌ها</h1>
+    </div>
+    <div class="discount-inner">
+      <div class="products dis-1">
+        <div class="product-position">
+          <div class="product-img">
+          </div>
+          <h1 class="product-name">اسم کالا</h1>
+          <h1 class='product-price'>۲۰۰,۰۰۰</h1>
+        </div>
+      </div>
+      <div class="products dis-2">
+        <div class="product-position">
+          <div class="product-img">
+          </div>
+          <h1 class="product-name">اسم کالا</h1>
+          <h1 class='product-price'>۲۰۰,۰۰۰</h1>
+        </div>
+      </div>
+      <div class="products dis-3">
+        <div class="product-position">
+          <div class="product-img">
+          </div>
+          <h1 class="product-name">اسم کالا</h1>
+          <h1 class='product-price'>۲۰۰,۰۰۰</h1>
+        </div>
+      </div>
+      <div class="products dis-4">
+        <div class="product-position">
+          <div class="product-img">
+          </div>
+          <h1 class="product-name">اسم کالا</h1>
+          <h1 class='product-price'>۲۰۰,۰۰۰</h1>
+        </div>
+      </div>
+      <div class="products dis-5">
+        <div class="product-position">
+          <div class="product-img">
+          </div>
+          <h1 class="product-name">اسم کالا</h1>
+          <h1 class='product-price'>۲۰۰,۰۰۰</h1>
+        </div>
+      </div>
+      <div class="products dis-6">
+        <div class="product-position">
+          <div class="product-img">
+          </div>
+          <h1 class="product-name">اسم کالا</h1>
+          <h1 class='product-price'>۲۰۰,۰۰۰</h1>
+        </div>
+      </div>
+      <div class="products dis-7">
+        <div class="product-position">
+          <div class="product-img">
+          </div>
+          <h1 class="product-name">اسم کالا</h1>
+          <h1 class='product-price'>۲۰۰,۰۰۰</h1>
+        </div>
+      </div>
+      <div class="products dis-8">
+        <div class="product-position">
+          <div class="product-img">
+          </div>
+          <h1 class="product-name">اسم کالا</h1>
+          <h1 class='product-price'>۲۰۰,۰۰۰</h1>
+        </div>
+      </div>
+      <div class="products dis-9">
+        <div class="product-position">
+          <div class="product-img">
+          </div>
+          <h1 class="product-name">اسم کالا</h1>
+          <h1 class='product-price'>۲۰۰,۰۰۰</h1>
+        </div>
+      </div>
+      <div class="products dis-10">
+        <div class="product-position">
+          <div class="product-img">
+          </div>
+          <h1 class="product-name">اسم کالا</h1>
+          <h1 class='product-price'>۲۰۰,۰۰۰</h1>
+        </div>
+      </div>
+      <div class="products dis-11">
+        <div class="product-position">
+          <div class="product-img">
+          </div>
+          <h1 class="product-name">اسم کالا</h1>
+          <h1 class='product-price'>۲۰۰,۰۰۰</h1>
+        </div>
+      </div>
+      <div class="products dis-12">
+        <div class="product-position">
+          <div class="product-img">
+          </div>
+          <h1 class="product-name">اسم کالا</h1>
+          <h1 class='product-price'>۲۰۰,۰۰۰</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
